@@ -10,7 +10,7 @@ const users: IUserInput[] = [
     password: bcrypt.hashSync('123456', 5),
     role: 'Admin',
     address: {
-      fullName: '',
+      fullName: 'Kumar Saurabh',
       street: '111 Main St',
       city: 'Jalandhar',
       province: 'Punjab',
